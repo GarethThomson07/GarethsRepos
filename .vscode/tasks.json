@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build: MainTest (gcc)",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-O0",
+                "-Wall",
+                "-Wextra",
+                "-std=c11",
+                "-o",
+                "${workspaceFolder}/MainTest/build/Debug/main.exe",
+                "${workspaceFolder}/MainTest/build/Debug/main.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
