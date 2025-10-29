@@ -39,8 +39,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Gareth/ENGG1410-Labs",
-      "program": "c:/Users/Gareth/ENGG1410-Labs/build/Debug/outDebug",
+      "cwd": "c:/Users/Gareth/ENGG1410-Labs/ProblemSets/test3",
+      "program": "c:/Users/Gareth/ENGG1410-Labs/ProblemSets/test3/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
